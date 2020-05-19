@@ -81,6 +81,7 @@ class MainWindow(QMainWindow, WindowMixin):
         self.setWindowTitle(__appname__)
 
         # Load setting in the main thread
+        # 读取用户配置
         self.settings = Settings()
         self.settings.load()
         settings = self.settings

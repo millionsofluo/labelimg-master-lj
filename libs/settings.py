@@ -22,23 +22,23 @@ class Settings(object):
         return default
 
     def save(self):
-        if self.path:
-            with open(self.path, 'wb') as f:
-                pickle.dump(self.data, f, pickle.HIGHEST_PROTOCOL)
-                return True
+        # if self.path:
+        #     with open(self.path, 'wb') as f:
+        #         pickle.dump(self.data, f, pickle.HIGHEST_PROTOCOL)
+        #         return True
         return False
 
     def load(self):
-        try:
-            if os.path.exists(self.path):
-                with open(self.path, 'rb') as f:
-                    self.data = pickle.load(f)
-                    # print('self.data:')
-                    # for line in self.data:
-                    #     print(line)
-                    return True
-        except:
-            print('Loading setting failed')
+        # try:
+        #     if os.path.exists(self.path):
+        #         with open(self.path, 'rb') as f:
+        #             self.data = pickle.load(f)
+        #             # print('self.data:')
+        #             # for line in self.data:
+        #             #     print(line)
+        #             return True
+        # except:
+        #     print('Loading setting failed')
         return False
 
     def reset(self):
