@@ -1595,8 +1595,8 @@ def get_main_app(argv=[]):
 
     # 用默认的调用
     # 初始化：默认打开图片的文件夹，类名txt文件，默认存储标签的文件夹
-    win = MainWindow(defaultPrefdefClassFile='./predefined_classes.txt')
-    # win = MainWindow()
+    # win = MainWindow(defaultPrefdefClassFile='./predefined_classes.txt')
+    win = MainWindow()
     win.show()
     return app, win
 
