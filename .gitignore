@@ -20,7 +20,7 @@ backup*
 data
 data*
 demo
-
+classes*
  
 ##############################
 ## file                     ##
@@ -173,3 +173,7 @@ cscope*
 .subvimrc
 .vscode
 *.pkl
+demo/classes.txt
+fix_qt_import_error.py
+README.rst
+labelImg.spec
