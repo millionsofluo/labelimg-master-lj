@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['labelImg.py'],
-             pathex=['C:\\Users\\million_luo\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\PyQt5\\Qt\\bin', 'D:\\work\\project\\labelimg-master-lj'],
+             pathex=['E:\\project\\labelimg-master-lj'],
              binaries=[],
              datas=[],
              hiddenimports=[],
