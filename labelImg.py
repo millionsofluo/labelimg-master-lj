@@ -1515,7 +1515,10 @@ class MainWindow(QMainWindow, WindowMixin):
         # self.labelHist = ["person", "safetybelt"]
         # self.labelHist = ["blue", "yellow", "white", "red", "none"]
         # self.labelHist = ["表", "球分", "球合", "已储能", "左右分", "左右合"]
-        self.labelHist = ["指针", "数字框", "temp1", "temp2", "temp3", "temp4"]
+        # self.labelHist = ["指针", "数字框", "temp1", "temp2", "temp3", "temp4"]
+        # self.labelHist = ["避雷器1", "避雷器2", "油位表", "temp2", "temp3", "temp4"]
+        self.labelHist = ["避雷器1_数字框", "避雷器1_表盘",
+                          "避雷器1_指针", "避雷器2_数字框", "避雷器2_指针", "temp4"]
 
         # 不要了，直接赋值
         # if os.path.exists(predefClassesFile) is True:
